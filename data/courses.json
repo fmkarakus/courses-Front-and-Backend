@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "course 1"
+  },
+  {
+    "id": 2,
+    "name": "course 2"
+  },
+  {
+    "id": 5,
+    "name": "edited course"
+  },
+  {
+    "id": 7,
+    "name": "chemistry"
+  },
+  {
+    "id": 8,
+    "name": "history"
+  },
+  {
+    "id": 9,
+    "name": "geography"
+  }
+]

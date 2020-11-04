@@ -7,14 +7,29 @@
 
   <link rel="stylesheet" href="./style.css">
 
+  <script src="https://kit.fontawesome.com/1f1918c2d9.js" crossorigin="anonymous"></script>
+
   <script type="module">
     import { init } from './app/init.js'
     window.onload = init;
   </script>
+    <script src="./app/actions.js"></script>
+    <script src="./app/views.js"></script>
 </head>
 
 <body>
+  <div class="wrapper">
+<h1>Courses</h1>
+<form id='save-form'>
+  <input id='course-name' name='courseName' placeholder='course name' />
+  <button id='save-button'>add a course</button>
+</form>
 
+<details open>
+  <summary>all the courses</summary>
+  <div id='courses-list-container'></div>
+</details>
+</div>
 </body>
 
 </html>

@@ -1,3 +1,73 @@
 body {
-  background-color: peachpuff;
+  font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background-image: url("https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  font-weight: 250;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  position: absolute;
+  top: 200px;
+  color: white;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  right: 12rem;
+  position: absolute;
+  top: -155px;
+  width: 50%;
+  font-size: 100px;
+  font-weight: 100;
+  color: rgba(83, 16, 16, 0.8);
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  text-align: end;
+}
+
+#course-name {
+  position: relative;
+  margin: 0;
+  width: 450px;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  border: 0;
+  color: gray;
+  padding: 6px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#save-button {
+  font-size: 24px;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 6px;
+}
+
+li {
+  border-bottom: 1px solid purple;
+  height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
 }
